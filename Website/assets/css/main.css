@@ -1,0 +1,40 @@
+.menu {
+    background-color: #001725;
+    font-size: 2.5rem;
+}
+
+.menu__user-list {
+    list-style: none;
+    padding-left: 0;
+    color: white;
+    /* align-items: center; */
+    text-align: center;
+}
+
+.menu__user-item {
+    margin: 10px 0px 10px 0px;
+    font-weight: 500;
+    /* align-items: center; */
+}
+
+.list__menu {
+    align-items: center;
+}
+
+.menu__user {
+    color: white;
+}
+
+.menu__user:hover, .menu__itemchoose:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.img__icon {
+    height: 25px;
+}
+
+.menu__itemchoose {
+    border-radius: 20px;
+    border: 1px solid #FFF0CE;
+}
