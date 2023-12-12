@@ -1,6 +1,7 @@
 .grid__column_2 {
     background-color: #001725;
     font-size: 2.5rem;
+    min-height: 100vh;
 }
 
 .menu__user-list {
