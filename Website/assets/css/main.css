@@ -7,7 +7,6 @@
     list-style: none;
     padding-left: 0;
     color: white;
-    /* align-items: center; */
     text-align: center;
 }
 
@@ -24,12 +23,14 @@
 
 .menu__user-tab {
     margin-left: 20px;
+    display: inline-block;
+    font-size: 3.5rem;
+    color: white;
 }
 
 .menu__user-item {
     margin: 10px 0px 10px 0px;
     font-weight: 500;
-    /* align-items: center; */
     padding: 5px;
 }
 
@@ -38,7 +39,7 @@
     color: rgba(255, 255, 255, 0.7);
 }
 
-.menu__user-tab1:hover, .menu__user-tab2:hover {
+.fa-solid:hover{
     cursor: pointer;
     color: rgba(255, 255, 255, 0.7);
 }
